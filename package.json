@@ -8,13 +8,13 @@
 		"react-dom": "^16.8.6",
 		"react-scripts": "0.9.5"
 	},
-	"homepage": "https://kateday.github.io/",
+	"homepage": "https://KateDay.github.io/kateday",
 	"devDependencies": {},
 	"scripts": {
 		"start": "react-scripts start",
 		"build": "react-scripts build",
 		"test": "react-scripts test --env=jsdom",
 		"eject": "react-scripts eject",
-		"deploy": "gh-pages -d build"
+		"deploy": "npm run build && gh-pages -d build"
 	}
 }
