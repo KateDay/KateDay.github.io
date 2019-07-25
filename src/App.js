@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
-import './App.css';
+import './styles/App.css';
 
 class App extends Component {
 	render() {
@@ -10,7 +10,6 @@ class App extends Component {
 					<img src={logo} className="App-logo" alt="logo" />
 					<h2>Getting to know me</h2>
 				</div>
-			
 			</div>
 		);
 	}
